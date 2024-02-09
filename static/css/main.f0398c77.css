@@ -1,0 +1,2 @@
+.menu{color:#b2aeaa;display:flex;font-size:20px;gap:30px;list-style:none}.menu,.menu li{position:relative}.menu li:after,.menu li:before{background:#6d6b6b;bottom:-35px;content:"";height:1px;left:0;position:absolute;transition:width .3s;width:0}.menu li:hover:after,.menu li:hover:before{width:150px}
+/*# sourceMappingURL=main.f0398c77.css.map*/
