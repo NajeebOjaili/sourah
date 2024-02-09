@@ -2,7 +2,7 @@ import React, { useRef, useState } from 'react'
 import { TiCogOutline } from "react-icons/ti";
 import { CiSearch } from "react-icons/ci";
 import { CiBookmarkCheck } from "react-icons/ci";
-import { Box,  Button,  Drawer, DrawerBody, DrawerCloseButton, DrawerContent,  DrawerFooter,  DrawerOverlay, Flex, Image,  Link,  Text, useDisclosure } from '@chakra-ui/react';
+import { Box,  Button,  Drawer, DrawerBody, DrawerCloseButton, DrawerContent,  DrawerFooter,  DrawerOverlay, Flex, Image,  Text, useDisclosure } from '@chakra-ui/react';
 import { LuSunMoon } from "react-icons/lu";
 import { CiMenuFries } from "react-icons/ci";
 import { FaMoon } from "react-icons/fa";
