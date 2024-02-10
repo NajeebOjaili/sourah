@@ -2,9 +2,9 @@
   "name": "sourah",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://github.com/NajeebOjaili/sourah",
+ 
   "dependencies": {
-  
+    "homepage": "http://github.com/NajeebOjaili/sourah",
     "@chakra-ui/react": "^2.8.2",
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
