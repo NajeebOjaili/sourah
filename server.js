@@ -1,11 +1,11 @@
 const express = require('express');
 const path =require('path');
-const cors = require('cors');
+
 const mysql =require('mysql');
 const multer = require('multer')
-const upload = multer({ dest: 'uploads/' });
+// const upload = multer({ dest: 'uploads/' });
 const app = express();
-app.use(cors());
+
 app.use(express.json());
 
 app.use(express.static(path.join(__dirname, 'build')));
@@ -51,18 +51,18 @@ app.post('/info', (req, res) => {
         return res.json(result);
     });
 });
-app.post('/api/upload-audio', upload.single('audio'), (req, res) => {
+// app.post('/api/upload-audio', upload.single('audio'), (req, res) => {
   
-    const audioFile = req.file;
-    const title = req.body.title;
-    const description = req.body.description;
-    const userId = req.body.userId;
+//     const audioFile = req.file;
+//     const title = req.body.title;
+//     const description = req.body.description;
+//     const userId = req.body.userId;
   
   
    
   
-    res.status(200).send('Audio uploaded successfully');
-  });
+//     res.status(200).send('Audio uploaded successfully');
+//   });
   
 
 
