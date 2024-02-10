@@ -87,7 +87,7 @@ const  Header = () => {
 
         </Flex>
         <Flex className="right-logo">
-            <Image src='/sourah.png' alt='Sourah-logo' width={150} m={{base:"20px",md:"20px"}}/>
+            <Image src='./sourah.png' alt='Sourah-logo' width={150} m={{base:"20px",md:"20px"}}/>
         </Flex>
     </Flex>
     
