@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/sourah/static/css/main.f0398c77.css",
-    "main.js": "/sourah/static/js/main.139f6d26.js",
+    "main.js": "/sourah/static/js/main.9b52a0c1.js",
     "static/js/508.528ac2c8.chunk.js": "/sourah/static/js/508.528ac2c8.chunk.js",
     "static/js/592.fc723df3.chunk.js": "/sourah/static/js/592.fc723df3.chunk.js",
     "index.html": "/sourah/index.html",
     "main.f0398c77.css.map": "/sourah/static/css/main.f0398c77.css.map",
-    "main.139f6d26.js.map": "/sourah/static/js/main.139f6d26.js.map",
+    "main.9b52a0c1.js.map": "/sourah/static/js/main.9b52a0c1.js.map",
     "508.528ac2c8.chunk.js.map": "/sourah/static/js/508.528ac2c8.chunk.js.map",
     "592.fc723df3.chunk.js.map": "/sourah/static/js/592.fc723df3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f0398c77.css",
-    "static/js/main.139f6d26.js"
+    "static/js/main.9b52a0c1.js"
   ]
 }
