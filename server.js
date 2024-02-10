@@ -6,7 +6,7 @@ app.use(express.static(path.join(__dirname, 'build')));
 
 app.get('*',(req,res) => {res.sendFile(path.join(__dirname, 'build' , 'index.html'))});
 
-const PORT = process.env.PORT || 8001;
+const PORT = process.env.PORT || 3002;
 app.use(express.json());
 
 const db = mysql.createConnection({
@@ -17,8 +17,8 @@ const db = mysql.createConnection({
     
 
 })
-app.get('/',(req,res) =>{
-    const sql = "SELECT * FROM info";
+app.get('/info',(req,res) =>{
+    const sql = 'SELECT * FROM info';
     db.query(sql, (err,result) =>{
         if (err) return res.json({Message:"Error inside server"});
         return res.json(result);
@@ -46,5 +46,5 @@ app.post('/info', (req, res) => {
 });
 
 app.listen(PORT, () => {
-    console.log(`SERVER IS RUNNING  ON  http://localhost:${PORT}}`)
+    console.log(`SERVER IS RUNNING  ON  http://localhost:${PORT}`)
 })
