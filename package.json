@@ -2,8 +2,9 @@
   "name": "sourah",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/NajeebOjaili/sourah",
   "dependencies": {
-    "homepage":"https://NajeebOjaili.github.io/sourah",
+  
     "@chakra-ui/react": "^2.8.2",
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
@@ -18,7 +19,6 @@
     "react-icons": "^5.0.1",
     "react-mic": "^12.4.6",
     "react-scripts": "5.0.1",
-    "use-http": "^1.0.28",
     "use-sound": "^4.0.1",
     "web-vitals": "^2.1.4"
   },
