@@ -4,7 +4,8 @@
   "private": true,
  
   "dependencies": {
-    "homepage": "http://github.com/NajeebOjaili/sourah",
+   
+    "homepage": "http://NajeebOjaili.github.io/sourah",
     "@chakra-ui/react": "^2.8.2",
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
