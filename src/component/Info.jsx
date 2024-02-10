@@ -16,7 +16,7 @@ const  Info = () => {
     const handleSubmit = async (event) => {
         event.preventDefault();
         try {
-            const res = await axios.post('http://localhost:8001/info', values);
+            const res = await axios.post('http://localhost:5000/info', values);
             showToast("Success", "شكرا لك نحن سعداء بزيارتك ", "success");
         } catch (error) {
             showToast("Error", error.message, "error");
